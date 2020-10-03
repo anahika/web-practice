@@ -7,7 +7,7 @@ Link for the same :  <br />
  
  
  ### List of projects : <br/>
- - Farewell form <br/>
+ - Farewell page<br/>
  - Feedback form  <br/>
  - Product  <br/>
  - Tribute   <br/>
