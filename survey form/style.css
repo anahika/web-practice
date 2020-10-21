@@ -46,6 +46,9 @@ body{
     border-bottom: solid #eeeeee 1px;
     padding: 3px 10px;
 }
+.text-line:hover{
+    border-bottom: solid green 2px;
+}
 /* submit button's properties  */
 button{
     font-size: 30px;
