@@ -1,0 +1,79 @@
+
+body{
+    color:green;
+    text-align:center;
+    background-color: #ede7f6;
+}
+/* used flex display with different rows  */
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+    color:black;
+    flex-wrap: nowrap;
+}
+/* header image specifications  */
+.img {
+    background-image: url(https://lh5.googleusercontent.com/kzuE6z1ISzXiyJehzOax1BO3GbEd2UFc4CkzTL4-V2EDItMsqbSClTQctgXAiDDdThiXGMPbi5OM7DXQ8LaySBMhpI53NmOxuuflpM-37TItJVCQP_FJ-0NJMD6z=w1200);
+    background-size: cover;
+    background-position: center;
+}
+/* properties of box  */
+.box {
+    background-color: white;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding:30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* dimensions of other elements */
+.flexcontainer > div {
+    max-width: 100vw;
+    min-height: 90px;
+    width: 770px;
+}
+/* line shown below description of each element to take input from the candidate */
+.text-line {
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+}
+/* submit button's properties  */
+button{
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+/* when cursor is on button then it's properties  */
+button:hover{
+         color:red;
+         background-color: white;
+}
+/* to take submit button to the center  */
+.center{
+    text-align:center; 
+    margin-top:20px;
+}
+/* used to mark mandatory fields */
+.required{
+    color:red;
+}
+/* to take feedback from the candidate  */
+textarea{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: 3px solid #ccc;
+    border-radius: 10px;    
+}
+/* when cursor is on textarea  */
+textarea:hover{
+    border-color:hotpink;
+    background-color: gainsboro;
+}
