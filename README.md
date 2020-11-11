@@ -6,7 +6,7 @@ Link for the same :  <br />
  <br />
  
  
- ### List of projects : <br/><br/s>
+ ### List of projects : <br/><br/>
  - Farewell page<br/>
  - Feedback form  <br/>
  - Product  <br/>
